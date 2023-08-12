@@ -1,8 +1,6 @@
 const Pool=require('pg').Pool;
 const mongoose = require('mongoose');
-// const connectDB = (url) => {
-//   // return mongoose.connect(url);
-// };
+
 const pool=new Pool({
     user:"postgres",
     host:"localhost",
